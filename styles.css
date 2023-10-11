@@ -1,0 +1,108 @@
+body {
+    background-color:hsl(185, 75%, 39%)
+}
+
+.card-pattern {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.avatar-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.user-information {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 0;
+}
+
+.user {
+    transform: translateY(-25%);
+}
+
+.name {
+    font-weight: 600;
+    margin-right: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    grid-column: 2;
+}
+
+.location {
+    margin: -10px 0 0 20px;
+    grid-row: 2 ;
+    justify-self: center;
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}
+
+.card {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    width: 350px;
+    border: none;
+}
+
+.user-numbers {
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-top: 0.5px solid hsl(0, 0%, 85%);
+    align-items: center;
+    margin-top: -80px ;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.light {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.followers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.likes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
